@@ -1,0 +1,13 @@
+{
+  "domain": "umr_ultra",
+  "name": "UMR-Ultra",
+  "integration_type": "hub",
+  "config_flow": true,
+  "documentation": "https://github.com/whizzdix/umr-ultra-integration",
+  "issue_tracker": "https://github.com/whizzdix/umr-ultra-integration/issues",
+  "dependencies": [],
+  "codeowners": ["@whizzdix"],
+  "requirements": [],
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}

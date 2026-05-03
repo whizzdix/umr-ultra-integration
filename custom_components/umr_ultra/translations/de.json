@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mit UMR-Ultra verbinden",
+        "description": "Bitte gib die Verbindungsdaten deines Unifi Mobile Router Ultra ein.",
+        "data": {
+          "host": "IP-Adresse",
+          "username": "Benutzername",
+          "password": "Passwort",
+          "update_interval": "Aktualisierungsintervall (Sekunden)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung fehlgeschlagen",
+      "invalid_auth": "Ungültige Authentifizierung",
+      "unknown": "Unerwarteter Fehler"
+    },
+    "abort": {
+      "already_configured": "Gerät ist bereits konfiguriert"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "fw_version": { "name": "Firmware-Version" },
+      "uptime": { "name": "Betriebszeit" },
+      "iccid": { "name": "ICCID" },
+      "imsi": { "name": "IMSI" },
+      "apn": { "name": "APN" },
+      "lte_mode": { "name": "LTE-Modus" },
+      "rssi": { "name": "RSSI" },
+      "rsrq": { "name": "RSRQ" },
+      "rsrp": { "name": "RSRP" },
+      "signal_level": { "name": "Signal Level" },
+      "operator_name": { "name": "Betreiber" },
+      "public_ip": { "name": "Öffentliche IP" },
+      "download_usage": { "name": "Datenverbrauch Download" },
+      "upload_usage": { "name": "Datenverbrauch Upload" },
+      "total_usage": { "name": "Datenverbrauch Gesamt" },
+      "memory": { "name": "Speicherauslastung" },
+      "cpu": { "name": "CPU-Auslastung" },
+      "latency": { "name": "Latenz Durchschnitt" },
+      "clients": { "name": "Verbundene Clients" },
+      "next_update": { "name": "Nächstes Update" }
+    }
+  }
+}
